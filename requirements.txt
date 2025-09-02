@@ -1,0 +1,23 @@
+# Core test stack
+pytest==7.4.4
+pytest-html==3.2.0
+pytest-rerunfailures==13.0
+pytest-xdist==3.5.0
+pytest-metadata==3.0.0
+
+# Selenium stack
+selenium==4.11.2
+webdriver-manager==4.0.2
+
+# Compatibility pin (critical for old OpenSSL)
+urllib3<1.27
+
+# Utilities
+python-dotenv==0.21.1
+sortedcontainers==2.4.0
+typing-extensions==4.7.1
+iniconfig==2.0.0
+packaging==24.0
+attrs==24.2.0
+pluggy==1.2.0
+zipp==3.15.0

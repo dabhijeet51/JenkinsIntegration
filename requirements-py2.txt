@@ -1,0 +1,16 @@
+# Core test stack
+pytest==4.6.11           # last pytest version supporting Python 2
+pytest-html==1.22.1
+pytest-rerunfailures==8.0
+pytest-xdist==1.34.0
+pytest-metadata==1.11.0
+
+# Selenium stack
+selenium==3.141.0
+urllib3<1.25             # newer urllib3 drops Py2 support
+
+# Utilities
+python-dotenv==0.15.0
+attrs==19.3.0
+pluggy==0.13.1
+py==1.10.0

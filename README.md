@@ -6,9 +6,9 @@ It includes the essential configuration files and scripts to automate test execu
 # Project Structure
 
 ```
-├── Jenkinsfile               # Jenkins pipeline configuration
+├── Jenkinsfile              # Jenkins pipeline configuration
 ├── conftest.py              # Pytest configuration and fixtures
-├── requirements.txt         # Python dependencies
+├── requirements.txt         # Python dependencies (specific to python 3)
 ├── requirements-py2.txt     # Python 2 specific dependencies (legacy support)
 └── script/
     ├── run_automated_tests.sh       # Activates virtual environments, installs dependencies, or sets environment variables.
